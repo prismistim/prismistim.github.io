@@ -1,0 +1,21 @@
+{   
+    "roma_name": "Mizuki Murashige",
+    "username": "snowsphere",
+    "birth": "1998-08-08",
+    "location": "Japan, Gifu",
+    "job": "Student",
+    "school":[
+        {
+            "grade": "Kosen",
+            "school_name": "National Institute of Technology, Gifu College",
+            "department": "Electrical and Computer Engineering",
+            "year": "2014-04 ~ 2019-03"
+        }
+    ],
+    "interesting": "Web Engineering, Music, Movie, Design",
+    "programming":{
+        "lang": "C, javascript, PHP, Python, Processing",
+        "lib": "jQuery, Flask, Keras"
+    },
+    "description": "高専2年生の頃、「ホームページを作ろう」という実験の内容で初めてWebの世界に触れ、作ったものがすぐに反映されるレスポンスの速さと素直さに感動する。それから謎解きサイトを作ったり、物語を作って自分のサイトで公開したり「Webでなにかを作る楽しさ」に取り憑かれる。その後はWebに関するアルバイトをしたり、インターンに行ったりと様々な体験し、現在に至る。"
+}

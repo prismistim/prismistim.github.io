@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>snowsphere-me</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contents">
+        <div class="header">
+            <div class="title">snowsphere-me</div>
+        </div>
+        <div class="clearfix" id="top">
+            <div class="box">
+                <img src="./img/me.png" class="me">
+                <div class="description-i">fig. Administer recent</div>
+            </div>
+            <div class="box">
+                <img src="./img/me.png" class="me">
+            </div>
+        </div>
+        <div class="clearfix" id="about">
+            <h2 class="section">About me</h2>
+            <div class="box">
+                <img src="./img/me.png" class="me">
+                <div class="description-i">fig. Administer recent</div>
+                <div id="roma-name"></div>
+                <div id="username"></div>
+                <h3 class="sub-section">Status</h3>
+                <div class="myinfo">
+                    <table id="myinfo">
+                        <tr>
+                            <th>Job</th>
+                            <td id=job></td>
+                        </tr>
+                        <tr>
+                            <th>Birth</th>
+                            <td id=birth></td>
+                        </tr>
+                        <tr>
+                            <th>Location</th>
+                            <td id=location></td>
+                        </tr> 
+                    </table>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="sub-section">Education</h3>
+                <div id="schoolist"></div>
+                <h3 class="sub-section">Interesting</h4>
+                <div id="interesting"></div>
+                <h3 class="sub-section">Programming</h3>
+                <h4 class="subtitle">Language</h4>
+                <div id="language"></div>
+                <h4 class="subtitle">Library</h4>
+                <div id="library"></div>
+                <p id="description" class="description"></p>
+            </div>
+        </div>
+        <div class="clearfix" id="product">
+            <h2 class="section">Product</h2>
+            <div id="product-all"></div>
+        </div>
+    </div>
+    <div class="navigation">
+        <a href="#" class="navi-title" id="to_top">snowsphere-me</a>
+        <a href="#" class="navi-link" id="to_about">About me</a>
+        <a href="#" class="navi-link" id="to_product">Product</a>
+    </div>
+    <script src="./js/change.js"></script>
+    <script src="./js/add.js"></script>
+</body>
+</html>

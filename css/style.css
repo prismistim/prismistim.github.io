@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700|Noto+Serif+SC:300');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+}
+
+.contents{
+    width: 70%;
+    margin: 20px auto 80px;
+}
+
+.box{
+    float: left;
+    width: 43%;
+    margin: 8px 1% 15px ;
+    padding: 20px;
+    background-color: #FFF;
+    border: solid 1px #7f7fff;
+    filter: drop-shadow(10px 10px 15px rgba(49, 131, 255, 0.6));
+}
+
+h2.section{
+    padding: 10px;
+    font-size: 2.2em;
+    border: solid 1px #7f7fff;
+    color: #7f7fff;
+}
+
+h3.product-title{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+p.description{
+    color: #292929;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.description-i{
+    margin-bottom: 10px;
+    color: #383838;
+    font-style: italic;
+    font-weight: 300;
+}
+
+ul{
+    list-style: none;
+    margin: 3px 0;
+}
+
+li{
+    text-indent: -2em;
+}
+
+li.works-list::before{
+    left: -5px;
+    content: "> ";
+    color: #3e3eff;
+}
+
+img.me{
+    width: 80%;
+    margin: 20px;
+    background-color: #383838;
+}
+
+.header .title{
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 300;
+    border: solid 1px #7f7fff;
+    background-color: #7f7fff;
+    color: #FFF;
+}
+
+#top{
+    display: block;
+}
+
+#about, #product{
+    display: none;
+}
+
+/*about me*/
+#roma-name{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#username{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+th{
+    padding-right: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #7f7fff;
+}
+
+.myinfo{
+    margin: 10px 0;
+}
+
+.myinfo #job, #birth, #location{
+    margin-bottom: 5px;
+}
+
+h3.sub-section{
+    margin: 12px 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #3e3eff;
+    border-bottom: solid 1px#7f7fff;
+}
+
+h4.subtitle{
+    margin: 5px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #7f7fff;
+}
+
+.school-li{
+    padding: 10px;
+    font-weight: 400;
+    border: solid 1px #7f7fff;
+}
+
+.grade{
+    font-size: 1.1em;
+}
+
+.school-name{
+    font-size: 1.3em;
+}
+
+.school-dep{
+    font-size: 1.1em;
+}
+
+.school-year{
+    margin-top: 5px;
+}
+
+#interesting, #language, #library{
+    font-weight: 400;
+}
+
+/*product*/
+img.inbox-img{
+    width: 100%;
+}
+
+li.works-list{
+    font-size: 15px;
+    padding: 3px 0;
+}
+
+a.link-btn{
+    float: left;
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #707070;
+    font-size: 0.7em;
+}
+
+a.link-btn:hover{
+    background-color: #3e3eff;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+/*navigation*/
+
+.navigation{
+    width: 100%;
+    background-color: #DDD;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+
+.navigation a{
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.navi-title{
+    float: left;
+    padding: 10px;
+    margin: 8px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+}
+
+a.navi-title:hover{
+    color: #3e3eff;
+    transition: 0.6s;
+}
+
+.navigation a.navi-link{
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 8px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #383838;
+    font-size: 18px;
+}
+
+.navigation a.navi-link:hover{
+    background-color: #3e3eff;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*media query*/
+@media screen and (min-width:1200px){
+    .box{
+        min-height: 565px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+
+    .box{
+        width: 41%;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px){
+    html{
+        font-size: 14px;
+    }
+
+    .box{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        font-size: 13px;
+    }
+
+    .box{
+        width: 90%;
+        margin: 8px auto 60px -20px;
+        width: 100%;
+    }
+}

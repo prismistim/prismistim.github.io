@@ -1,0 +1,87 @@
+[
+    {
+        "title": "TimeTable Maker",
+        "img": "./img/product/ttmaker.jpg",
+        "description": "「タイムテーブルを作成するとき時間の計算が面倒...」「自動生成してくれるアプリがあれば！...」というツイートを見て、作ってみるか！ということで制作したのがこちらです。まずイベントの基本情報を入力し、作成を押すと時間間隔を計算したものが生成され、あとは名前を入力して画像として保存！現在はもっとフレキシブルに時間間隔を調整できるよう修正中です。",
+        "date": "2019-01-19 ~",
+        "use": [
+            "jQuery",
+            "html2canvas.js",
+            "moment.js",
+            "HTML",
+            "CSS"
+        ],
+        "links": [
+            {
+                "title": "TimeTable Maker(GitHub Pages)",
+                "url": "https://prismistim.github.io/timetable-maker/"
+            }
+        ]
+    },
+    {
+        "title": "PLANET-B",
+        "img": "./img/product/planet_b.jpg",
+        "description": "部活の中で音楽ゲームが好きなメンバーを集めて、「自分たちで音楽ゲームを作ろう！」と始まったのがこのPLANET-Bです。これまでにオリジナルアルバム、BMS楽曲の制作・配信、BMS界で一番大きいオンラインコンテスト「G2R2018」への参加など様々な活動を行ってきました。そして現在は、新規オリジナル音楽ゲームを制作中です...！",
+        "date": "2016-10-01 ~",
+        "works": [
+            "音源制作",
+            "映像制作",
+            "素材制作",
+            "BMS制作",
+            "Webサイト制作",
+            "コンテンツ管理"
+        ],
+        "links": [
+            {
+                "title": "PLANET-B",
+                "url": "http://prismistim.com/planet_b"
+            }
+        ]
+    },
+    {
+        "title": "岐阜工業高等専門学校 電気情報工学科 ホームページ",
+        "img": "./img/product/eka.jpg",
+        "description": "「学科のサイトが古すぎて使えない！」という声をお聞きし、なら私が...という感じで軽いノリで始め、いつの間にか巨大なものになってしまったのがこちらです。レスポンシブデザイン対応、内容の更新、保守性の強化を行い、ちょっとは良くなったかなと思っています。まだデザインで気に入らない部分が多々あるんですが、こだわりすぎると完成しないしクロスブラウザ対応させるのが面倒なのでまだ手を付けられていませんw",
+        "date": "2018-01-14 ~ 2018-09-28",
+        "works": [
+            "Webデザイン",
+            "csvからお知らせ、イベント情報、教員一覧を読み込む機能",
+            "写真等素材提供",
+            "内容大幅更新"
+        ],
+        "links": [
+            {
+                "title": "電気情報工学科 HP",
+                "url": "http://www.gifu-nct.ac.jp/elec/"
+            },
+            {
+                "title": "旧サイト (参考)",
+                "url": "http://www.gifu-nct.ac.jp/elec/ec/toppage/index.html"
+            }
+        ]
+    },
+    {
+        "title": "Twitter Super Search",
+        "img": "./img/product/tss.jpg",
+        "description": "ソフトウェア工学という授業で、「何でもいいからソフトウェアを作ろう」というミニハッカソンみたいな演習があったので、友達4人でTwitterのAPIを利用した詳細な検索ができるツールを制作しました。",
+        "date": "2018-07-10 ~ 2018-07-27",
+        "works": [
+            "Twitterの認証",
+            "APIを利用しTwitterでユーザ、ツイート検索",
+            "結果表示・ガイドページ等デザイン"
+        ],
+        "use": [
+            "PHP",
+            "jQuery",
+            "TwistOAuth",
+            "HTML",
+            "CSS"
+        ],
+        "links": [
+            {
+                "title": "Twitter Super Search",
+                "url": "https://twitter-super-search.herokuapp.com"
+            }
+        ]
+    }
+]
