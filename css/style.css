@@ -8,7 +8,7 @@ body{
 
 .contents{
     width: 70%;
-    margin: 20px auto 100px;
+    margin: 20px auto 60px;
 }
 
 .box{
@@ -285,7 +285,7 @@ a.navi-title:hover{
     }
 
     .box{
-        width: 85%;
+        width: 80%;
         margin: 8px auto 0px 0px;
     }
 
