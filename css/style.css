@@ -111,6 +111,15 @@ th{
     margin-bottom: 5px;
 }
 
+a#github-link{
+    color: #7f7fff;
+    font-size: 3em;
+}
+
+a#github-link:hover{
+    color: #3e3eff;
+}
+
 h3.sub-section{
     margin: 12px 0;
     font-size: 1.6em;

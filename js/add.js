@@ -9,7 +9,7 @@ $(function() {
         $('#birth').html(data.birth);
         $('#location').html(data.location);
 
-        $('#github-link').attr(data.links.github);
+        $('#github-link').attr("href", data.links.github);
 
         for(var x = 0; x < data.school.length; x++) {
             school += '<div class="school-li">';
