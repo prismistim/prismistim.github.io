@@ -8,8 +8,10 @@ body{
 
 .contents{
     width: 70%;
-    margin: 20px auto 60px;
+    margin: 10px auto 60px;
     overflow: hidden;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
 
 .box{
@@ -17,12 +19,12 @@ body{
     vertical-align: top;
     width: 37%;
     padding: 5%;
-    background-color: #FFF;
     border: solid 1px #7f7fff;
     border-bottom: solid 5px #f80091;
 }
 
 h2.section{
+    margin: 10px 0 20px;
     padding: 10px;
     font-size: 2.2em;
     background: linear-gradient(90deg, #7f7fff, #f80091);
@@ -113,13 +115,15 @@ th{
     margin-bottom: 5px;
 }
 
-a#github-link{
+a#github-link, a#sc-link{
     color: #7f7fff;
-    font-size: 3em;
+    font-size: 2em;
+    margin-left: 10px;
 }
 
-a#github-link:hover{
+a#github-link:hover, a#sc-link:hover{
     color: #3e3eff;
+    transition: 0.3s;
 }
 
 h3.sub-section{
@@ -144,15 +148,15 @@ h4.subtitle{
 }
 
 .grade{
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 
 .school-name{
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .school-dep{
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 .school-year{
@@ -308,5 +312,24 @@ a.navi-title:hover{
         padding: 8px;
         margin: 5px;
         font-size: 0.8em;
+    }
+}
+
+/*CSS Animation*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
     }
 }

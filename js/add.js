@@ -10,6 +10,7 @@ $(function() {
         $('#location').html(data.location);
 
         $('#github-link').attr("href", data.links.github);
+        $('#sc-link').attr("href", data.links.sc);
 
         for(var x = 0; x < data.school.length; x++) {
             school += '<div class="school-li">';
